@@ -62,4 +62,5 @@ Go to http://localhost/ and you’ll see WordPress installation screen.
 If done correctly, after the initial WordPress installation, Two Factor Authentication should appear on the Dashboard under the plugins section.
 # Delete docker image
 `docker-compose down`
- `docker image rm [OPTIONS] IMAGE [IMAGE...]`
+ 
+`docker image rm [OPTIONS] IMAGE [IMAGE...]`
