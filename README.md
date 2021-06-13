@@ -1,6 +1,7 @@
 # Description of the project
 
-The config file is created using docker-compose to initialize and run Wordpress.
+1. The config file is created using docker-compose to initialize and run Wordpress.
+2. After initialization, install the two-factor plugin for Wordpress and activate it.
 
 **docker-compose.yml**
 
@@ -36,7 +37,7 @@ services:
       - "./wordpress:/var/www/html"
       - "./plugins:/var/www/html/wp-content/plugins"
 ```
-next to the docker-compose.yml file, a plugins folder is created, in which we need to place the plugin we need
+a plugins folder is created next to the **docker-compose.yml** file, where you need to place a plugin with **two-factor**
 
 
 
